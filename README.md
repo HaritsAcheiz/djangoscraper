@@ -2,7 +2,16 @@
 learn deploy webscraper with django
 
 ## Step by Step
-### A. Django Preparation
+
+### A. Rabbitmq installation on windows
+1. Install Erlang
+   * download erlang otp installer at https://erlang.org/download/otp_versions_tree.html
+   * run otp_win64_25.2.1.exe
+2. Install Rabbitmq
+   * download rabbitmq-server-3.11.7.exe at https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.11.7/rabbitmq-server-3.11.7.exe
+   * run rabbitmq-server-3.11.7.exe
+
+### B. Django Preparation
 1. Install django framework package (in terminal)
 2. Start django project (in terminal django-admin startproject project_name.)
 3. Setup django project
@@ -21,7 +30,7 @@ learn deploy webscraper with django
    * open route from url to views function (in app_name/urls.py)
    * create models (in app_name/models.py)
 
-### B. Web Scraper Preparation
+### C. Web Scraper Preparation
   * Install Selenium (in terminal)
   * Create
 
